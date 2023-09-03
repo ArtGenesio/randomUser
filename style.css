@@ -1,0 +1,44 @@
+body {
+    background-color:bisque;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    color: lightcoral;
+}
+
+.row {
+    display: flex
+}
+
+.column {
+    flex: 50%;
+}
+
+#avatarImg {
+    margin: 0.3em;
+    border-radius: 5em;
+}
+
+.userProfile {
+    margin: auto;
+    padding: 0.5em;
+    width: 25em;
+    background-color: white;
+    border-radius: 0.4em;
+    color: cadetblue;
+}
+
+#userName {
+    font-size: 0.8em
+}
+
+#details {
+    margin-top: 0.8em;
+}
+
+#email, #country {
+    padding-left: 0.5em;
+    color: cadetblue;
+}
